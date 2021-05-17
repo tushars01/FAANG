@@ -37,7 +37,8 @@ class Stack():
             return True
         return False
 
-
+# This is not a correct way to implement a stack as it is adt(abstract data type), So user will not
+# decide whether to implement stack using array or linkedlist
 li = []
 max_size = 5
 s = Stack(li, max_size)
